@@ -3,7 +3,7 @@
 ## Common errors
 - If you see "**internet connection is required to verify this app**" and app is not launching, and you are using publicly available free certificate, congratulations, Apple has blacklisted your device from running apps signed by current certificate. **You can try to change to another free available certificate (if any) at [features configuration page](https://appdb.to/my/configure), remove and install app again. If not, then the only way for you is to switch to your own or P2P-shared developer account.**
 
-- If you see this while using **your own or P2P-shared developer account**, go to [Apple Developer Website](https://developer.apple.com/account/) and accept all pending agreements (or ask account owner to do it, their contact can be found on [PLUS status page](https://appdb.to/my/plus))
+- If you see this while using **your own or P2P-shared developer account**, go to [Apple Developer Website](https://developer.apple.com/account/) and accept all pending agreements (or ask account owner to do it, their contact can be found on [PLUS status page](https://appdb.to/my/plus)).
 
 - If app is installed, but you see "**developer mode is required**" popup when you try to launch it, go to Settings->Privacy & Security, scroll down to Developer mode and enable it. Device will be rebooted and apps will start to work.
 
@@ -24,8 +24,7 @@ After you have tapped INSTALL button, tap Cancel on popup to go to [device statu
 - Try to reboot your device or reconnect to WiFi network or toggle airplane mode.
 - Check internet connection on your device, you may be behind a proxy and your device can't contact apple servers and/or appdb. Direct connection is required.
 - If you see "Device can not verify installation data (possible connection issue on device)" - make sure that you are not connected to internet via proxy. Apple (as well as appdb) requires devices to verify every installation request, and direct internet connection is required. If you connected to internet directly, feel free to send us logs to diagnose this issue.
-- If you have something like this "Every time I try to install an app my phone keeps telling me device not linked, but it is linked" - Go to Settings->Safari and clear browsing data, then tap on appdb icon on your Home Screen. 
-- 
+- If you have something like this "Every time I try to install an app my phone keeps telling me device not linked, but it is linked" - Go to Settings->Safari and clear browsing data, then tap on appdb icon on your Home Screen.
 - If everything here looks okay, and you see installation popup on your device, switch over to device itself:
 
 ## Issues after downloading of app to device
