@@ -1,4 +1,5 @@
-- [Welcome page](README.md)
+- [README](README.md)
+
 - Troubleshooting
-    * [App installations](troubleshooting/app-installations.md)
-    * [Logs submission](troubleshooting/submit-logs.md)
+  - [App Installations](troubleshooting/app-installations.md)
+  - [Submit Logs](troubleshooting/submit-logs.md)
