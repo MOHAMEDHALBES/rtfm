@@ -18,7 +18,7 @@ General rule - the more metadata you can provide, the better it is.
 
 There are also some **don'ts** that you should take into account.
 
-**Do not publish an app and keep it private in your library**, if any of this statement is true:
+**Do not publish an app and keep it private in your library**, if at least one of these statements is true:
 
 1. License of an app from developer forbids it to be published on appdb.
 2. App contains an enhancements that modify app behavior in the way which prevent app developer from directly benefiting on it (e.g. paid functions inside are provided for free due to injected enhancement).
@@ -35,13 +35,13 @@ There are also some **don'ts** that you should take into account.
 
 ## Violations
 
-appdb staff periodically and randomly checks apps that were provided by users. Copyright owners or/and may also submit complaint against content that was published by you, or your app may be superseeded by an officially published app on appdb.
+appdb staff periodically and randomly checks apps that were provided by users. Copyright owners may also submit complaint against content that was published by you, or your app may be superseded by an officially published app on appdb.
 
 In case of detection of violation of these rules, this will happen:
 
 1. appdb sends you a notice of violation detection.
-2. you have 24 hours to fix an issue, by negotiating with copyright owner or/and appdb; or remove your app from public access.
-3. if you haven't reacted in 24 hours, appdb automatically removes your app from public access.
+2. You have 24 hours to fix an issue, by negotiating with copyright owner or/and appdb; or remove your app from public access.
+3. If you haven't reacted in 24 hours, appdb automatically removes your app from public access.
 
 In case of multiple violations of these rules, app publication ability may be revoked from you permanently.
 
