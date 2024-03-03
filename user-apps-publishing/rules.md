@@ -10,15 +10,16 @@ Before setting app to public, make sure that:
 3. It has an icon. If icon was not parsed by appdb automatically, please [create ticket in support desk](https://aysa-support.freshdesk.com/), so we can diagnose this issue.
 4. You have provided description, what's new and added screenshots.
 5. You have filled in app source (it may be your name).
-6. All other fields, like developer, license text are filled, if known by you.
+6. All other fields like developer and license text are filled, if you know what they should be.
 
 General rule - the more metadata you can provide, the better it is.
 
 ## Don'ts
 
-There are also some **don'ts** that you should take into account.
+There are also some **don'ts** that you should take into an account.
 
-**Do not publish an app and keep it private in your library**, if at least one of these statements is true:
+**Do not make an app public** if at least one of these statements are true:
+
 
 1. License of an app from developer forbids it to be published on appdb.
 2. App contains an enhancements that modify app behavior in the way which prevent app developer from directly benefiting on it (e.g. paid functions inside are provided for free due to injected enhancement).
@@ -29,7 +30,7 @@ There are also some **don'ts** that you should take into account.
 
 ## Other considerable topics
 
-1. Do not use word "Tweaked", if app was enhanced, use word "Enhanced, Enhancement".
+1. Do not use the word "Tweaked", if app was enhanced, use the word "Enhanced" or "Enhancement".
 2. Do not advertise anything in apps description.
 3. If app contains in-app purchases, make sure that you mention that appdb does not take any responsibility for payments and services inside this app.
 
