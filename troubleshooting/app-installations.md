@@ -43,4 +43,6 @@ If app was successfully installed to your device, but still crashing, check that
 
 Please note that user-contributed apps are not tested by appdb or developers and may be faulty or crash. In this case, please use apps that are published on appdb officially.
 
-Useful links: [How to submit iOS device logs to appdb](/troubleshooting/submit-logs.md).
+Useful links: [How to submit iOS device logs to appdb](/troubleshooting/logs-submission.md).
+
+Last updated 3 Mar 2024.

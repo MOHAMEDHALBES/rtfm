@@ -2,4 +2,8 @@
 
 - Troubleshooting
   - [App Installations](troubleshooting/app-installations.md)
-  - [Submit Logs](troubleshooting/submit-logs.md)
+  - [Logs Submission](troubleshooting/logs-submission.md)
+
+- User App Publishing
+  - [Manual](user-app-publishing/manual.md)
+  - [Rules](user-app-publishing/rules.md)
