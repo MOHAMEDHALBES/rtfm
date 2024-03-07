@@ -1,7 +1,7 @@
 # Migration guide from API v.1.6 to v.1.7
 
 ```
-This is working draft of migraion guide. Please wait for an official annoucement for switching to this API version
+This is working draft of migration guide. Please wait for an official announcement for switching to this API version
 ```
 ## Feature support changes
 
