@@ -1,7 +1,7 @@
 # Migration guide from API v.1.6 to v.1.7
 
 ```
-THIS PAGE IS IN ACTIVE DEVELOPMENT RIGHT NOW, DO NOT USE IT WITHOUT PRIOR NOTICE
+This is working draft of migraion guide. Please wait for an official annoucement for switching to this API version
 ```
 ## Feature support changes
 
@@ -45,6 +45,7 @@ Updated specification is located at [this URL](https://api.dbservices.to/v1.7/sp
 - **delete_ipa_from_cache**
 - **transfer_ipa_cache**
 - **clear_ipa_cache**
+- **report**
 
 ### Changed methods
 - **install** - added universal object identifier support, deleted types ios, cydia, tvos, osx, standalone. Deleted FairPlayDirectInstallation support. Deleted protection_validation_id requirement.

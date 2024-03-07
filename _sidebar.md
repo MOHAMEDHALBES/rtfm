@@ -1,7 +1,7 @@
 - [README](README.md)
 
-- Enhancements
-  - [FAQ](enhancements/FAQ.md)
+- App Enhancements
+  - [FAQ](app-enhancements/FAQ.md)
 
 - Migrations
   - [Api 1.6 To 1.7](migrations/api-1.6-to-1.7.md)
