@@ -1,3 +1,4 @@
+- [CREDITS](CREDITS.md)
 - [README](README.md)
 
 - App Enhancements
