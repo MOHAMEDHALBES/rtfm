@@ -7,6 +7,9 @@
 - Migrations
   - [Api 1.6 To 1.7](migrations/api-1.6-to-1.7.md)
 
+- Services
+  - [Push Notifications](services/push-notifications.md)
+
 - Troubleshooting
   - [App Installations](troubleshooting/app-installations.md)
   - [Logs Submission](troubleshooting/logs-submission.md)
