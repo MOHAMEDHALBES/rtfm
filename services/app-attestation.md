@@ -14,9 +14,9 @@ appdb automatically manages key validation, extraction and storage during app at
 ### Initial configuration
 
 1) Generate random challenge for initial attestation on your server.
-2) Use this challenge to generate and register app attestation.
-3) Retrieve attestation results and private key from [appdb Attestation Service getAttestationData method](https://attestrelay.dbservices.to/v1.0/spec/).
-4) Store these results on your server, you will need them in future.
+2) Use this challenge to generate and register app attestation in your app.
+3) On your server, get attestation results and private key from [appdb Attestation Service getAttestationData method](https://attestrelay.dbservices.to/v1.0/spec/).
+4) Store these results on your server, you will need them in the future.
 
 ### Continuous usage
 
