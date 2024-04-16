@@ -20,10 +20,10 @@ appdb automatically manages key validation, extraction and storage during app at
 
 ### Continuous usage
 
-If you need to verify some data inside your app, e.g. payload of API request, do the following.
+If you need to verify some data inside your app, e.g. payload of API request, do the following:
 
 1) Use ```generateDataAssertion``` with your data to generate assertion object.
-2) Pass it to your server and validate it and it's counter with Key that you obtained on Initial configuration stage. [Sample PHP code](#) to verify data assertion.
+2) Pass it to your server alongside with the data; validate it and it's counter with Key that you obtained on Initial configuration stage. [Sample PHP code](#) to verify data assertion.
 3) If it is valid, then request is coming from genuine copy of your app. Save counter to your database and wait for next assertion.
 
 
@@ -35,8 +35,8 @@ You need to:
 - [Upload your IPA package](https://publisher.appdb.to/apps/binary-packages).
 - Assign IPA package to an app.
 - [Create token of Attest Verification type](https://publisher.appdb.to/developer/tokens) with your app identifier.
-- Create your own server to generate and send unique challenges to your app
-- Install app to your device and call ```registerAppAttestation``` method of [appdb services framework](#), so your app attestation will be registered on appdb
+- Create your own server to generate and send unique challenges to your app.
+- Install app to your device and call ```registerAppAttestation``` method of [appdb services framework](#), so your app attestation will be registered on appdb.
 
 ## Verifying data assertions
 

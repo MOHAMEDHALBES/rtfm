@@ -3,7 +3,7 @@
 ## Common errors
 - If you see "**internet connection is required to verify this app**" and app is not launching, and you are using publicly available free certificate, congratulations, Apple has blacklisted your device from running apps signed by current certificate. **You can try to change to another free available certificate (if any) at [features configuration page](https://appdb.to/my/configure), remove and install app again. If not, then the only way for you is to switch to your own or P2P-shared developer account.**
 
-- If you see this while using **your own or P2P-shared developer account**, go to [Apple Developer Website](https://developer.apple.com/account/) and accept all pending agreements (or ask account owner to do it, their contact can be found on [PLUS status page](https://appdb.to/my/plus)).
+- If you see this while using **your own or P2P-shared developer account**, try to reboot your device. If it doesn't help, go to [Apple Developer Website](https://developer.apple.com/account/) and accept all pending agreements (or ask account owner to do it, their contact can be found on [PLUS status page](https://appdb.to/my/plus)).
 
 - If app is installed, but you see "**developer mode is required**" popup when you try to launch it, go to Settings->Privacy & Security, scroll down to Developer mode and enable it. Device will be rebooted and apps will start to work.
 
