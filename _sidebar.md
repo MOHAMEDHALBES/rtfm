@@ -5,7 +5,7 @@
   - [FAQ](app-enhancements/FAQ.md)
 
 - Guidelines
-  - [Apps](guidelines/apps.md)
+  - [App Design](guidelines/app-design.md)
 
 - Migrations
   - [Api 1.6 To 1.7](migrations/api-1.6-to-1.7.md)

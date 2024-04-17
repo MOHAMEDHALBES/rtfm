@@ -24,9 +24,9 @@ After purchase, users need to be able, inside app, or via link from app to exter
 
 ## Requirements for apps with advertising
 
-Before enabling of showing of ads, you need to get explicit consent of user to (usually it is enabled in frameworks and libraries of popular ad networks):
+Before enabling of showing of ads, you need to get explicit consent of user to (usually it is included in frameworks and libraries of popular ad networks):
 
-- Collect their identifiers to show personalised ads
-- DO NOT collect their identifiers and show them non-personalised ads
+- Collect their identifiers to show personalised ads.
+- DO NOT collect their identifiers and show them non-personalised ads.
 
 
