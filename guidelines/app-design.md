@@ -29,4 +29,25 @@ Before enabling of showing of ads, you need to get explicit consent of user to (
 - Collect their identifiers to show personalised ads.
 - DO NOT collect their identifiers and show them non-personalised ads.
 
+## Mimic apps and functions
+
+Apps that are pretend to mimic functionality, e.g. faking of GPS location, must explicitly state in their description that displayed data is not real.
+Before faking any functionality, app must show message to users that requires their explict acknowledgement in order to continue to engaging of such functions.  
+
+## Interference with Apple services
+
+Apps must not interfere or use Apple services. If you plan to publish an app on appdb, do not use services that require Apple servers interaction.
+
+Example of services that you can not use:
+
+1) Apple sign in
+2) Apple Maps
+3) iCloud Keychain
+
+What you can use:
+
+1) Your own or any other social sign in methods
+2) Google Maps
+3) Local on-device persistent keychain
+
 
