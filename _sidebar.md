@@ -1,6 +1,9 @@
 - [CREDITS](CREDITS.md)
 - [README](README.md)
 
+- Agreements
+  - [Effective Agreements](agreements/effective-agreements.md)
+
 - App Enhancements
   - [FAQ](app-enhancements/FAQ.md)
 
