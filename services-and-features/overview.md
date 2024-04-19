@@ -4,7 +4,6 @@ Appdb offers various platform services, features and APIs. Please use panel on t
 
 At the moment these services and features are available:
 
-- [Identifications](/app-development/identifiers)
 - [Push notification service](/services-and-features/push-notifications)
 - [App attestation service](/services-and-features/app-attestation)
 - [Deep linking](/services-and-features/deep-linking)
