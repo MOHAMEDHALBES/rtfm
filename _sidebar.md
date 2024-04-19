@@ -4,6 +4,10 @@
 - Agreements
   - [Effective Agreements](agreements/effective-agreements.md)
 
+- App Development
+  - [Detecting Available Features](app-development/detecting-available-features.md)
+  - [Identifiers](app-development/identifiers.md)
+
 - App Enhancements
   - [FAQ](app-enhancements/FAQ.md)
 
@@ -13,9 +17,12 @@
 - Migrations
   - [Api 1.6 To 1.7](migrations/api-1.6-to-1.7.md)
 
-- Services
-  - [App Attestation](services/app-attestation.md)
-  - [Push Notifications](services/push-notifications.md)
+- Services And Features
+  - [App Attestation](services-and-features/app-attestation.md)
+  - [Deep Linking](services-and-features/deep-linking.md)
+  - [Group Identifiers](services-and-features/group-identifiers.md)
+  - [Overview](services-and-features/overview.md)
+  - [Push Notifications](services-and-features/push-notifications.md)
 
 - Troubleshooting
   - [App Installations](troubleshooting/app-installations.md)

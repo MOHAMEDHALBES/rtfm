@@ -1,5 +1,9 @@
 # Sending Push notifications to customers and devices
 
+## Identifier
+
+```push```
+
 ## Overall
 
 appdb Push notification service allows you to send push notifications to your customers or/and to specific devices of your customers.
