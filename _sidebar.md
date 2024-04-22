@@ -7,9 +7,13 @@
 - App Development
   - [Detecting Available Features](app-development/detecting-available-features.md)
   - [Identifiers](app-development/identifiers.md)
+  - [Testing With Failure Domains](app-development/testing-with-failure-domains.md)
 
 - App Enhancements
   - [FAQ](app-enhancements/FAQ.md)
+
+- Developer Apps Publishing
+  - [Journey](developer-apps-publishing/journey.md)
 
 - Guidelines
   - [App Design](guidelines/app-design.md)
