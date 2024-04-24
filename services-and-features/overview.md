@@ -8,6 +8,7 @@ At the moment these services and features are available:
 - [App attestation service](/services-and-features/app-attestation)
 - [Deep linking](/services-and-features/deep-linking)
 - [Inter-app communication (app groups)](/services-and-features/group-identifiers)
+- [App data backup & restore service](/services-and-features/backups)
 
 
-Last updated 19 Apr 2024.
+Last updated 24 Apr 2024.

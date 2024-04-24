@@ -23,6 +23,7 @@
 
 - Services And Features
   - [App Attestation](services-and-features/app-attestation.md)
+  - [Backups](services-and-features/backups.md)
   - [Deep Linking](services-and-features/deep-linking.md)
   - [Group Identifiers](services-and-features/group-identifiers.md)
   - [Overview](services-and-features/overview.md)
