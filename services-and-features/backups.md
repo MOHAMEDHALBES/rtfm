@@ -46,7 +46,7 @@ Stores backup data at key.
 
 Gets backup data at key.
 
-```purgeBackupAtKet(key)```
+```purgeBackupAtKey(key)```
 
 Purges backup data at key.
 
