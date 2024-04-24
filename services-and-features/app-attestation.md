@@ -30,7 +30,7 @@ appdb automatically manages key validation, extraction and storage during app at
 If you need to verify some data inside your app, e.g. payload of API request, do the following:
 
 1) Use ```generateDataAssertion``` with your data to generate assertion object.
-2) Pass it to your server alongside with the data; validate it and it's counter with Key that you obtained on Initial configuration stage. [Sample PHP code](https://github.com/appdb-official/php-app-attest-validator) to verify data assertion.
+2) Pass it to your server alongside with the data; validate it and it's counter with Key that you obtained on Initial configuration stage. [Sample PHP code](https://github.com/appdb-official/php-app-attest-validator) to verify attestation itself and data assertion.
 3) If it is valid, then request is coming from genuine copy of your app. Save counter to your database and wait for next assertion.
 
 

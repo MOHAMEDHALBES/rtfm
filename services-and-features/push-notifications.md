@@ -23,6 +23,7 @@ You need to:
 
 Upon completing of Prerequisites, you can use [appdb push relay service](https://pushrelay.dbservices.to/v1.0/spec/) documentation to send push notifications to devices. You can get scoped tokenized persistent customer and device identifiers in your app by calling ```getPersistentCustomerIdentifier``` and ```getPersistentDeviceIdentifier``` methods of [appdb services framework](#).
 Push notifications payloads are compatible with [Apple's defined schema](https://developer.apple.com/library/archive/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/CreatingtheNotificationPayload.html).
+We have created PHP library to send push notifications, you can find it on [Github](https://github.com/appdb-official/php-push-sender).
 
 ## Drawbacks
 
