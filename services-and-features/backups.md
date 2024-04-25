@@ -12,9 +12,9 @@ This service is designed to store app configuration, e.g. ```NSUserDefaults```.
 
 ## Design
 
-Consider this as key-value, or, for better understanding, key-PLIST storage.
+Consider this as key-value, or, for better understanding, key-JSON storage.
 
-Every configuration that you want to store is being converted to PLIST that will be stored on appdb servers.
+Every configuration that you want to store is being converted to JSON that will be stored on appdb servers.
 Each configuration is scoped by an app and its uniqueness is defined by ```store key``` which represents sha256 hash of your backup key.
 
 ## Generating store keys
@@ -54,4 +54,4 @@ Purges backup data at key.
 
 At the moment we do not have backup retention policy, so **purging of backup data responsibility is on your side**. Later on, we will introduce it, so your app will be GDPR-compliant as well.
 
-Last updated 24 Apr 2024.
+Last updated 25 Apr 2024.
