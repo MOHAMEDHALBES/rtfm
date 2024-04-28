@@ -52,6 +52,8 @@ Updated specification is located at [this URL](https://api.dbservices.to/v1.7/sp
 - **report**
 - **get_update_ticket**
 - **list_artists**
+- **fix_command**
+- **retry_command**
 
 ### Changed methods
 - **install** - added universal object identifier support, deleted types ios, cydia, tvos, osx, standalone, MyAppStore. Deleted FairPlayDirectInstallation support. Deleted protection_validation_id requirement.
