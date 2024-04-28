@@ -6,7 +6,7 @@ This page collects effective Platform agreements.
 
 This agreement governs how platform licenses apps to end customers.
 
-[View PDF](/agreements/appdb_app_eula_2804.24.pdf ':ignore')
+[View PDF](/agreements/appdb_app_eula_280424.pdf ':ignore')
 
 ## Platform usage agreement
 
