@@ -1,29 +1,18 @@
 # Migration guide from API v.1.6 to v.1.7
 
-## Important changes since 11 March 2024
+API v.1.6 will be functional **till 1 June 2024.**
 
-Methods **search**, **get_links** are working in Archive mode (e.g. no new content will appear if you will request it),
-Please temporary switch it to v.1.7 methods
+**API v.1.7 is a LTS release**, we will support it for at least 2 years, till 1 May 2026.
 
-- **search_index** - use instead search
-- **universal_gateway** - use instead search to get content details
-
-To trigger app installations, use v.1.7 method **install** with universal ticket from **universal_gateway** response.
-
-Since 11 March 2024, if you are using API v1.6, till end of transition period, there are 3 v.1.7 methods that allow you to list actual content and trigger installations.
-
----
-
-```
-TRANSITION PERIOD IS EFFECTIVE IF YOU ARE READING THIS
-This is working draft of migration guide. Please wait for an official announcement for switching to this API version
-```
 ## Feature support changes
 
+- Removal of content separation, you can get everything via **search_index** and **universal_gateway** methods.
+- Switching to installation tickets in **install** method.
 - Removal of file hosting support. All content is now hosted on appdb.
 - Removal of Direct Installation support and FairPlay Direct installation support.
 - Removal of appsync configuration.
 - Addition of lots of APIs related to official app publication.
+- Addition of lots of APIs related to official app testing and deployment.
 - Introduction of App Enhancements APIs instead of Dylib libraries APIs.
 - Introduction of copyright violation reporting APIs.
 - Introduction of installation history instead of IPA cache.
@@ -62,10 +51,13 @@ Updated specification is located at [this URL](https://api.dbservices.to/v1.7/sp
 - **clear_ipa_cache**
 - **report**
 - **get_update_ticket**
+- **list_artists**
 
 ### Changed methods
 - **install** - added universal object identifier support, deleted types ios, cydia, tvos, osx, standalone, MyAppStore. Deleted FairPlayDirectInstallation support. Deleted protection_validation_id requirement.
-- **configure**, **get_configuration**, **get_all_devices** - deleted appsync
-- **list_genres** - deleted all types except official
-- **set_publish_request_status** - removal of IPA submission, addition of setting of publicly available universal object identifier as a fulfillment result
+- **configure**, **get_configuration**, **get_all_devices** - deleted appsync.
+- **list_genres** - deleted all types except official.
+- **set_publish_request_status** - removal of IPA submission, addition of setting of publicly available universal object identifier as a fulfillment result.
 - **get_updates** - response format has been changed.
+
+Last updated 28 Apr 2024.
