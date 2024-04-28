@@ -43,11 +43,13 @@ Example of services that you can not use:
 1) Apple sign in.
 2) Apple Maps.
 3) iCloud Keychain.
+4) Apple app attestation APIs
 
 What you can use:
 
 1) Your own or any other social sign in methods.
 2) Google Maps.
 3) Local on-device persistent keychain.
+4) appdb app attestation APIs
 
 
