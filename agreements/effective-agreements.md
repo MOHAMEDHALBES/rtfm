@@ -2,11 +2,17 @@
 
 This page collects effective Platform agreements.
 
+## Applications License (EULA)
+
+This agreement governs how platform licenses apps to end customers.
+
+[View PDF](/agreements/appdb_app_eula_2804.24.pdf ':ignore')
+
 ## Platform usage agreement
 
 This agreement governs relationship between the Platform and the Developer (publisher).
 
-[View PDF](/agreements/platform_usage_agreement_180424.pdf ':ignore')
+[View PDF](/agreements/platform_usage_agreement_280424.pdf ':ignore')
 
 ## Privacy policy for publishers
 
