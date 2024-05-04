@@ -1,6 +1,6 @@
 # Identification of app, customer, device
 
-[appdb services framework](#) provides a way to identify app installation method, customers, devices and other identifiers.
+[appdb services SDK](https://github.com/appdb-official/AppdbSDK) provides a way to identify app installation method, customers, devices and other identifiers.
 
 ## Requirements
 

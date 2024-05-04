@@ -21,7 +21,7 @@ New account with temporary password will be created for you; and password will b
 
 ### Logging in
 
-Login with your temporary password.
+[Login](https://publisherid.appdb.to/auth) with your temporary password.
 
 ![Publisher ID login page](/img_1.png)
 
@@ -83,7 +83,7 @@ After you have saved legal entity information, please attach supporting document
 ![Supporting document attachment form](/img_7.png)
 
 
-**Your trade name information will be submitted to verification by the Platform support team.**
+**Your trade name information will be submitted to verification by the Platform support team. Usually it takes less than a day.**
 
 > Without legal entity verification your apps won't be listed in store, but you can test them and prepare everything for the release.
 
@@ -94,7 +94,7 @@ appdb app identifiers are unique alphanumeric strings. appdb assings randomly ge
 app identifiers define scope of appdb services, APIs usage, pricing and licensing models, customer and device data tokenization and other various parameters.
 
 appdb app identifiers **are not** Apple bundle identifiers, as, due to nature of system design by Apple Inc, bundle identifier is considered as variable in
-our systems and does not change or modifies anything. Everything is your app is relative to its path and to its assigned bundle identifier. Current assigned Apple bundle identifier will be provided to you via [appdb services framework](#)
+our systems and does not change or modifies anything. Everything is your app is relative to its path and to its assigned bundle identifier. Current assigned Apple bundle identifier will be provided to you via [appdb services SDK](https://github.com/appdb-official/AppdbSDK)
 
 Click [Identifiers](https://publisher.appdb.to/apps/identifiers) to visit identifiers screen and then click [Create app identifier](https://publisher.appdb.to/apps/identifiers/manage/new).
 
@@ -142,7 +142,7 @@ IPA package upload form will reveal:
 
 > Until Apple Inc is still man-in-the-middle, gatekeeping code signing and breaking digital chain of trust between you and your end customer; until they have not fulfilled our interoperability request to support code signing certificates of real developers issued by trusted CAs (not just their own CA) and physical keys and Hardware Security Modules, you don't need to sign your IPA package at all, or sign it with adhoc signing identity "-". appdb manages signing automatically on customer level.
 
-To build your app use this [shell script](#), it will produce IPA file that is ready to be sent to appdb.
+To build your app use [appdb build and sign tools](https://github.com/appdb-official/appdb-build-tools), it will produce IPA file that is ready to be sent to appdb.
 
 > appdb does not support IPA build numbers. To upload new IPA file, increment its version number.
 

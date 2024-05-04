@@ -35,7 +35,7 @@ Alongside with effect of ```ok``` domain, subscription length of in-app subscrip
 
 ```no_fp_signing```
 
-Alongside with effect of ```ok``` domain, [limited services and features](/services-and-features/overview) will be supported during app installation (check list of supported services inside app via ```getSupportedServicesIdentifiers``` method of [appdb services framework](#)).
+Alongside with effect of ```ok``` domain, [limited services and features](/services-and-features/overview) will be supported during app installation (check list of supported services inside app via ```getSupportedServicesIdentifiers``` method of [appdb services SDK](https://github.com/appdb-official/AppdbSDK)).
 
 
 

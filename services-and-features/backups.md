@@ -36,7 +36,7 @@ You may combine these store keys, e.g. if you updated your app version and your 
 
 ## Available operations
 
-[appdb services framework](#) provides these methods to operate KV backups:
+[appdb services SDK](https://github.com/appdb-official/AppdbSDK) provides these methods to operate KV backups:
 
 ```storeBackupAtKey(backupDict, key)```
 

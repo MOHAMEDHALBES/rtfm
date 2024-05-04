@@ -43,7 +43,7 @@ You need to:
 - Assign IPA package to an app.
 - [Create token of Attest Verification type](https://publisher.appdb.to/developer/tokens) with your app identifier.
 - Create your own server to generate and send unique challenges to your app.
-- Install app to your device and call ```registerAppAttestation``` method of [appdb services framework](#), so your app attestation will be registered on appdb.
+- Install app to your device and call ```registerAppAttestation``` method of [appdb services SDK](https://github.com/appdb-official/AppdbSDK), so your app attestation will be registered on appdb.
 
 ## Verifying data assertions
 

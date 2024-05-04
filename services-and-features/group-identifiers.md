@@ -10,7 +10,7 @@ Until interoperability in software is available, appdb configures an app with su
 
 ## Drawbacks
 
-Not all installation methods support app groups. To get assigned app groups, use ```getAppleAppGroupIdentifier``` method of [appdb sevices framework](#).
+Not all installation methods support app groups. To get assigned app groups, use ```getAppleAppGroupIdentifier``` method of [appdb services SDK](https://github.com/appdb-official/AppdbSDK).
 
 If it does not return app group, then this feature is not supported and you should adjust your app logic.
 

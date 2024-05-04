@@ -21,7 +21,7 @@ Associated URIs configuration is not being delivered via OTA, so it will be effe
 
 If customers want to redirect specific website to your app via deep linking, they need to enable plugin in Safari settings of the device.
 
-You can invoke window with instructions how to do it by calling ```askCustomerToEnableOpenIn``` method of [appdb services framework](#).
+You can invoke window with instructions how to do it by calling ```askCustomerToEnableOpenIn``` method of [appdb services SDK](https://github.com/appdb-official/AppdbSDK).
 
 Once enabled, when visiting associated URIs pattern, Safari will ask customer to open website in your app.
 

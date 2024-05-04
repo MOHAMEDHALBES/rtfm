@@ -17,11 +17,11 @@ You need to:
 - Assign IPA package to an app.
 - [Create token of Push type](https://publisher.appdb.to/developer/tokens) with your app identifier.
 - Optionally, add UDID of your device to [list of test devices](https://publisher.appdb.to/developer/test-devices), if you want to test or debug Pushes.
-- Install app to your device and call ```registerPushNotifications``` method of [appdb services framework](#), so device token will be assigned and saved.
+- Install app to your device and call ```registerPushNotifications``` method of [appdb services SDK](https://github.com/appdb-official/AppdbSDK), so device token will be assigned and saved.
 
 ## Sending of Push notifications
 
-Upon completing of Prerequisites, you can use [appdb push relay service](https://pushrelay.dbservices.to/v1.0/spec/) documentation to send push notifications to devices. You can get scoped tokenized persistent customer and device identifiers in your app by calling ```getPersistentCustomerIdentifier``` and ```getPersistentDeviceIdentifier``` methods of [appdb services framework](#).
+Upon completing of Prerequisites, you can use [appdb push relay service](https://pushrelay.dbservices.to/v1.0/spec/) documentation to send push notifications to devices. You can get scoped tokenized persistent customer and device identifiers in your app by calling ```getPersistentCustomerIdentifier``` and ```getPersistentDeviceIdentifier``` methods of [appdb services SDK](https://github.com/appdb-official/AppdbSDK).
 Push notifications payloads are compatible with [Apple's defined schema](https://developer.apple.com/library/archive/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/CreatingtheNotificationPayload.html).
 We have created PHP library to send push notifications, you can find it on [Github](https://github.com/appdb-official/php-push-sender).
 
