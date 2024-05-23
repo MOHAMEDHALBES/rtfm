@@ -16,6 +16,7 @@ API v.1.6 will be functional **till 1 June 2024.**
 - Introduction of App Enhancements APIs instead of Dylib libraries APIs.
 - Introduction of copyright violation reporting APIs.
 - Introduction of installation history instead of IPA cache.
+- Introduction of separate methods for subscriptions and purchases.
 
 ## API changes
 
@@ -57,9 +58,9 @@ Updated specification is located at [this URL](https://api.dbservices.to/v1.7/sp
 
 ### Changed methods
 - **install** - added universal object identifier support, deleted types ios, cydia, tvos, osx, standalone, MyAppStore. Deleted FairPlayDirectInstallation support. Deleted protection_validation_id requirement.
-- **configure**, **get_configuration**, **get_all_devices** - deleted appsync.
+- **configure**, **get_configuration**, **get_all_devices** - deleted appsync, plus_ and pro_ properties, use **get_subscriptions** and **get_purchases** to get history or/and manage subscriptions
 - **list_genres** - deleted all types except official.
 - **set_publish_request_status** - removal of IPA submission, addition of setting of publicly available universal object identifier as a fulfillment result.
 - **get_updates** - response format has been changed.
 
-Last updated 28 Apr 2024.
+Last updated 23 May 2024.

@@ -168,9 +168,9 @@ After you edited IPA metadata, it will be verified once again for consistency. I
 
 ![IPA in OK status](img_16.png)
 
-### Attaching IPA to app identifier
+### Assigning IPA to app identifier
 
-Now you are ready to attach your IPA to your app and start testing
+Now you are ready to assign your IPA to your app and start testing
 (if you've set publication date in the future when you [created or edited your app identifier](/developer-apps-publishing/journey?id=creating-app-identifier)).
 
 Click "Assign to App" to assign IPA to your app identifier.
