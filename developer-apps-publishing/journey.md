@@ -190,7 +190,7 @@ To install an app, [link your device to appdb](https://appdb.to/link).
 
 [Video tutorial - device linking](https://www.youtube.com/embed/LWy51S2piqE?si=8nbIg80hhLWSg3Gj ':include :type=iframe')
 
-Then, till interoperability will be implemented by Apple, [link your Apple developer account](https://appdb.to/my/plus) to be able to install apps.
+Then, till interoperability will be implemented by Apple, [link your Apple developer account](https://appdb.to/my/apple) to be able to install apps.
 
 [Video tutorial - developer account linking](https://www.youtube.com/embed/-ShhaoaLWyE?si=mhgSFzf8EHP3y0X- ':include :type=iframe')
 
@@ -217,4 +217,4 @@ Once you have completed all your tests, you need to fix all remaining issues tha
 
 Woah, it was a big journey.
 
-Last edited 22 Apr 2024.
+Last edited 15 Jul 2024.

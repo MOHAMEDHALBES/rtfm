@@ -3,7 +3,7 @@
 ## Common errors
 - If you see "**internet connection is required to verify this app**" and app is not launching, and you are using publicly available free certificate, congratulations, Apple has blacklisted your device from running apps signed by current certificate. **You can try to change to another free available certificate (if any) at [features configuration page](https://appdb.to/my/configure), remove and install app again. If not, then the only way for you is to switch to your own or P2P-shared developer account.**
 
-- If you see this while using **your own or P2P-shared developer account**, try to reboot your device. If it doesn't help, go to [Apple Developer Website](https://developer.apple.com/account/) and accept all pending agreements (or ask account owner to do it, their contact can be found on [PLUS status page](https://appdb.to/my/plus)).
+- If you see this while using **your own or P2P-shared developer account**, try to reboot your device. If it doesn't help, go to [Apple Developer Website](https://developer.apple.com/account/) and accept all pending agreements (or ask account owner to do it, their contact can be found on [App installation configuration page](https://appdb.to/my/apple)).
 
 - If app is installed, but you see "**developer mode is required**" popup when you try to launch it, go to Settings->Privacy & Security, scroll down to Developer mode and enable it. Device will be rebooted and apps will start to work.
 
@@ -33,11 +33,11 @@ If you see "unable to download at this time", "app integrity can not be verified
 
 1. Remove this app, it needs to be reinstalled.
 2. Check type of sideloading that you are using, tap on Selected Device on appdb and see "Sideloading with..." written under device name.
-3. If you are using free certificate without your personal developer account, your device may be blacklisted by Apple and you can no longer use this certificate. Switch to stable sideloading method. If you are using 3rd party certificate, check that it is not revoked. If you are using your own developer account or P2P-shared developer account, it is something unusual, create ticket in Helpdesk on [PLUS status page](https://appdb.to/my/plus).
+3. If you are using free certificate without your personal developer account, your device may be blacklisted by Apple and you can no longer use this certificate. Switch to stable sideloading method. If you are using 3rd party certificate, check that it is not revoked. If you are using your own developer account or P2P-shared developer account, it is something unusual, create ticket in Helpdesk on [Billing page](https://appdb.to/my/billing).
 4. If you are installing app after revocation, you need to remove old app and install new again (**not just reinstall it**). You can do it for all apps just with one tap from [IPA cache page](https://appdb.to/my/ipa-cache).
 5. If you're installing an enhanced app or combining app enhancement and app, read app description and check if you have removed the original app (some enhanced apps can not be installed alongside with original ones).
 
-If nothing helps, create ticket in support desk (link can be found on [PLUS status page](https://appdb.to/my/plus)) and provide email that you used to link your device and logs from your device (you should trigger sysdiagnose right after "unable to install at this time" popup appeared).
+If nothing helps, create ticket in support desk (link can be found on [Billing page](https://appdb.to/my/billing)) and provide email that you used to link your device and logs from your device (you should trigger sysdiagnose right after "unable to install at this time" popup appeared).
 
 If app was successfully installed to your device, but still crashing, check that you disabled everything in advanced usage zone on [device features configuration page](https://appdb.to/my/configure), remove app and install it again.
 
@@ -45,4 +45,4 @@ Please note that user-contributed apps are not tested by appdb or developers and
 
 Useful links: [How to submit iOS device logs to appdb](/troubleshooting/logs-submission.md).
 
-Last updated 3 Mar 2024.
+Last updated 15 Jul 2024.
